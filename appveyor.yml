@@ -1,0 +1,9 @@
+image:
+ - ubuntu
+ - Visual Studio 2015
+configuration: Release
+install:
+ - ps: dotnet restore
+test: off
+build:
+ verbosity: minimal
